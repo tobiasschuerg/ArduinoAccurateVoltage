@@ -1,5 +1,7 @@
 /*
-  AnalogVoltage.h - Library for making accurate adc reading on Arduino.
+  ArduinoAccurateVoltage.h - Library for making accurate adc reading on Arduino.
+  
+  Make accurate voltage readings on Arduino using the internal reference voltage.
 
   Based on a Blog entry by majenko.
   https://hackingmajenkoblog.wordpress.com/2016/02/01/making-accurate-adc-readings-on-the-arduino/
@@ -7,8 +9,8 @@
   Created by Tobias Schürg
 */
 
-#ifndef TMP36_h
-#define TMP36_h
+#ifndef ACCURATE_VOLTAGE_h
+#define ACCURATE_VOLTAGE_h
 
 long readVcc() {
   long result;
